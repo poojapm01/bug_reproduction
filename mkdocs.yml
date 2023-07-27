@@ -1,0 +1,43 @@
+site_name: My Docs - minimal reproduction
+theme:
+   name: material
+   features:
+        - navigation.footer
+        - content.code.annotate
+        - content.tabs.link
+        # - navigation.expand
+        - navigation.indexes
+        #- navigation.instant
+        - navigation.sections
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.top
+        - search.highlight
+        - search.share
+        - search.suggest
+extra:
+    generator: false
+    consent:
+       title: Cookie consent
+       description: >-
+              We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.
+    analytics:
+      provider: google
+      property: G-xxxxxxxxxx
+      feedback:
+        title: Was this page helpful?
+        ratings:
+          - icon: material/thumb-up-outline
+            name: This page was helpful
+            data: 1
+            note: >-
+              Thanks for your feedback!Help us improve this page by using our <a href="https://forms.office.com/e/wjQGK44wKW" target="_blank" rel="noopener" > feedback form </a>.
+          - icon: material/thumb-down-outline
+            name: This page could be improved
+            data: 0
+            note: >- 
+              Thanks for your feedback! Help us improve this page by using our <a href="https://forms.office.com/e/wjQGK44wKW" target="_blank" rel="noopener" > feedback form </a>.
+
+nav:
+    - Home: index.md
+    - Summary: summary.md
