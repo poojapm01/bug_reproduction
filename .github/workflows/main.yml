@@ -2,8 +2,8 @@ name: main
 on:
    push:
       branches:
-         - master
-         - main
+        - master
+        - main
 permissions:
   contents: write
 jobs:
